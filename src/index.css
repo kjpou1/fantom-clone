@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto&family=Work+Sans&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Proxima Nova, system-ui, sans-serif; */
+:root {
+  --font-family: 'Work Sans', system-ui, sans-serif;
+  --f-tabs-font-family: 'Montserrat', sans-serif;
+  --f-drawer-menu-font-family: 'Work Sans', sans-serif;
+}
+
+@layer base {
+    html {
+      scroll-behavior: smooth;
+      font-family: var(--font-family);
+    }
+    button {
+      @apply bg-blue-400;
+    }
+  }
+  
